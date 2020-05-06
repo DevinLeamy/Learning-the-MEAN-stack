@@ -1,0 +1,22 @@
+.button-holder {
+  width: 40%;
+  margin: auto;
+  top: 30%;
+  height: 35%;
+}
+.join-button {
+  display: block;
+  font-size: 60px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  width: 90%;
+  height: 40%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background-color: chocolate;
+}
+

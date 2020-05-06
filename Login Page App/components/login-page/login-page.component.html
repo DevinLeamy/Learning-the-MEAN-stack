@@ -1,0 +1,37 @@
+<div class="background">
+  <mat-card class="center">
+    <form (submit)="authenticate(loginForm)" #loginForm="ngForm">
+      <mat-form-field>
+          <input
+            matInput
+            type="text"
+            name="username"
+            id="usernameInput"
+            ngModel
+            required
+            placeholder="Username"
+            disabled="false"
+            #username="ngModel">
+          <mat-error *ngIf="username.invalid">Enter your username</mat-error>
+        </mat-form-field>
+        <hr>
+        <mat-form-field>
+          <input
+            matInput
+            rows="4"
+            name="password"
+            id="passwordInput"
+            ngModel
+            required
+            disabled="false"
+            placeholder="Password"
+            type="password"
+            #password="ngModel">
+        <mat-error *ngIf="password.invalid">Enter your password</mat-error>
+        </mat-form-field>
+        <hr>
+        <button mat-raised-button color="primary" type="submit" *ngIf="!waiting">Login</button>
+    </form>
+    <h1 *ngIf="waiting">Checking Credentials</h1>
+  </mat-card>
+</div>

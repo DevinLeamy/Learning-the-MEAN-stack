@@ -1,0 +1,46 @@
+<div style="background-color:powderblue;" class="background">
+  <mat-card class="center">
+    <form (submit)="createNewAccount(registerForm)"#registerForm="ngForm">
+        <mat-form-field>
+            <input
+              matInput
+              type="text"
+              name="username"
+              ngModel
+              required
+              placeholder="Username"
+              #username="ngModel">
+            <mat-error *ngIf="username.invalid">Enter a username</mat-error>
+          </mat-form-field>
+          <hr>
+          <mat-form-field>
+            <input
+              matInput
+              rows="4"
+              name="password"
+              ngModel
+              required
+              placeholder="Password"
+              type="password"
+              #password="ngModel">
+          <mat-error *ngIf="password.invalid">Enter a password</mat-error>
+          </mat-form-field>
+          <hr>
+          <mat-form-field>
+              <input
+                matInput
+                rows="4"
+                name="passwordReentered"
+                ngModel
+                required
+                placeholder="Repeat Password"
+                type="password"
+                #password="ngModel">
+                <!-- *ngIf="passwords no not match" -->
+            <mat-error *ngIf="password.invalid">Repeat your password</mat-error>
+            </mat-form-field>
+            <hr>
+          <button mat-raised-button color="primary" type="submit">Register</button>
+    </form>
+  </mat-card>
+</div>
