@@ -1,2 +1,2 @@
 # Learning-the-MEAN-stack
-MEAN Stack Learning Projects
+Project I've accomplished on my pursuit of MEAN stack expertise
