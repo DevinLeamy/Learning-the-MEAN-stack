@@ -1,0 +1,19 @@
+.centered-div {
+        width: 50%;
+        margin: auto;
+}
+
+.centered-mat-card {
+        background-color: blanchedalmond;
+}
+
+.large-button {
+        margin: auto;
+        display: block;
+        margin-bottom: 10%;
+        width: 60%;
+        height: 200px;
+        font-size: 25px;
+        word-wrap: normal;
+
+}
