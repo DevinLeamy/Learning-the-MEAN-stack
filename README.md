@@ -11,7 +11,6 @@ more scalable technologie for sending and receiving messages, websockets. I sett
 socket technology that can be added to express without too much hastle. Socket.io allows for real-time updates <br/>
 without the bruden of sending requests periodically, making them appear to implement a *long-polling* esk procedure, <br/>
 which is great. <br/>
-*<< Note: I have not added all projects files, I have only added those most pertinent. >>* <br/>
 ***Group Messaging App*** <br/>
-Using the primative message I developed for the Long Polling App as a baseline, I developed a messenger the allows <br/>
+Using the primative messager I developed for the Long Polling App as a baseline, I developed a messenger the allows <br/>
 for messaging among discrete groups of clients.
