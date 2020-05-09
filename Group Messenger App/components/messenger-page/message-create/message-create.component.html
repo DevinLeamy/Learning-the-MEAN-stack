@@ -1,0 +1,16 @@
+<form #messageForm="ngForm" (submit)="postNewMessage(messageForm)">
+  <mat-form-field appearance="outline" [hideRequiredMarker]="true">
+    <mat-label>Message</mat-label>
+    <input
+      matInput
+      type="text"
+      name="message"
+      ngModel
+      required
+      placeholder="Enter a message"
+      #message="ngModel"
+    >
+  </mat-form-field>
+  <hr>
+  <button mat-raised-button color="primary" type="submit">Post</button>
+</form>
