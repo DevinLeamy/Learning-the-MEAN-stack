@@ -12,5 +12,5 @@ socket technology that can be added to express without too much hastle. Socket.i
 without the bruden of sending requests periodically, making them appear to implement a *long-polling* esk procedure, <br/>
 which is great. <br/>
 ***Group Messaging App*** <br/>
-Using the primative messager I developed for the Long Polling App as a baseline, I developed a messenger the allows <br/>
+Using the primative messager I developed for the Long Polling App as a baseline, I developed a messenger that allows <br/>
 for messaging among discrete groups of clients, group chats if you will.
